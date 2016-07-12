@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DBC06441D35321D00022EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC06431D35321D00022EF4 /* main.m */; };
+		5DBC06471D35321D00022EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC06461D35321D00022EF4 /* AppDelegate.m */; };
+		5DBC064A1D35321D00022EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC06491D35321D00022EF4 /* ViewController.m */; };
+		5DBC064D1D35321D00022EF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC064B1D35321D00022EF4 /* Main.storyboard */; };
+		5DBC064F1D35321D00022EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC064E1D35321D00022EF4 /* Assets.xcassets */; };
+		5DBC06521D35321D00022EF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC06501D35321D00022EF4 /* LaunchScreen.storyboard */; };
+		5DBC065D1D35321D00022EF4 /* CATRadarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC065C1D35321D00022EF4 /* CATRadarViewTests.m */; };
+		5DBC06681D35321D00022EF4 /* CATRadarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC06671D35321D00022EF4 /* CATRadarViewUITests.m */; };
+		5DBC067B1D35328E00022EF4 /* CATRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC067A1D35328E00022EF4 /* CATRadarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DBC06591D35321D00022EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBC06371D35321D00022EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBC063E1D35321D00022EF4;
+			remoteInfo = CATRadarView;
+		};
+		5DBC06641D35321D00022EF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DBC06371D35321D00022EF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DBC063E1D35321D00022EF4;
+			remoteInfo = CATRadarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DBC063F1D35321D00022EF4 /* CATRadarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATRadarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBC06431D35321D00022EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DBC06451D35321D00022EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5DBC06461D35321D00022EF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5DBC06481D35321D00022EF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5DBC06491D35321D00022EF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DBC064C1D35321D00022EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DBC064E1D35321D00022EF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DBC06511D35321D00022EF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DBC06531D35321D00022EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBC06581D35321D00022EF4 /* CATRadarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATRadarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBC065C1D35321D00022EF4 /* CATRadarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATRadarViewTests.m; sourceTree = "<group>"; };
+		5DBC065E1D35321D00022EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBC06631D35321D00022EF4 /* CATRadarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATRadarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBC06671D35321D00022EF4 /* CATRadarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATRadarViewUITests.m; sourceTree = "<group>"; };
+		5DBC06691D35321D00022EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DBC06791D35328E00022EF4 /* CATRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATRadarView.h; sourceTree = "<group>"; };
+		5DBC067A1D35328E00022EF4 /* CATRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATRadarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DBC063C1D35321D00022EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC06551D35321D00022EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC06601D35321D00022EF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DBC06361D35321D00022EF4 = {
+			isa = PBXGroup;
+			children = (
+				5DBC06411D35321D00022EF4 /* CATRadarView */,
+				5DBC065B1D35321D00022EF4 /* CATRadarViewTests */,
+				5DBC06661D35321D00022EF4 /* CATRadarViewUITests */,
+				5DBC06401D35321D00022EF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DBC06401D35321D00022EF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC063F1D35321D00022EF4 /* CATRadarView.app */,
+				5DBC06581D35321D00022EF4 /* CATRadarViewTests.xctest */,
+				5DBC06631D35321D00022EF4 /* CATRadarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DBC06411D35321D00022EF4 /* CATRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC06751D35323000022EF4 /* Classes */,
+				5DBC06451D35321D00022EF4 /* AppDelegate.h */,
+				5DBC06461D35321D00022EF4 /* AppDelegate.m */,
+				5DBC06481D35321D00022EF4 /* ViewController.h */,
+				5DBC06491D35321D00022EF4 /* ViewController.m */,
+				5DBC064B1D35321D00022EF4 /* Main.storyboard */,
+				5DBC064E1D35321D00022EF4 /* Assets.xcassets */,
+				5DBC06501D35321D00022EF4 /* LaunchScreen.storyboard */,
+				5DBC06531D35321D00022EF4 /* Info.plist */,
+				5DBC06421D35321D00022EF4 /* Supporting Files */,
+			);
+			path = CATRadarView;
+			sourceTree = "<group>";
+		};
+		5DBC06421D35321D00022EF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC06431D35321D00022EF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DBC065B1D35321D00022EF4 /* CATRadarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC065C1D35321D00022EF4 /* CATRadarViewTests.m */,
+				5DBC065E1D35321D00022EF4 /* Info.plist */,
+			);
+			path = CATRadarViewTests;
+			sourceTree = "<group>";
+		};
+		5DBC06661D35321D00022EF4 /* CATRadarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC06671D35321D00022EF4 /* CATRadarViewUITests.m */,
+				5DBC06691D35321D00022EF4 /* Info.plist */,
+			);
+			path = CATRadarViewUITests;
+			sourceTree = "<group>";
+		};
+		5DBC06751D35323000022EF4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5DBC06791D35328E00022EF4 /* CATRadarView.h */,
+				5DBC067A1D35328E00022EF4 /* CATRadarView.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DBC063E1D35321D00022EF4 /* CATRadarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBC066C1D35321D00022EF4 /* Build configuration list for PBXNativeTarget "CATRadarView" */;
+			buildPhases = (
+				5DBC063B1D35321D00022EF4 /* Sources */,
+				5DBC063C1D35321D00022EF4 /* Frameworks */,
+				5DBC063D1D35321D00022EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATRadarView;
+			productName = CATRadarView;
+			productReference = 5DBC063F1D35321D00022EF4 /* CATRadarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DBC06571D35321D00022EF4 /* CATRadarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBC066F1D35321D00022EF4 /* Build configuration list for PBXNativeTarget "CATRadarViewTests" */;
+			buildPhases = (
+				5DBC06541D35321D00022EF4 /* Sources */,
+				5DBC06551D35321D00022EF4 /* Frameworks */,
+				5DBC06561D35321D00022EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBC065A1D35321D00022EF4 /* PBXTargetDependency */,
+			);
+			name = CATRadarViewTests;
+			productName = CATRadarViewTests;
+			productReference = 5DBC06581D35321D00022EF4 /* CATRadarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DBC06621D35321D00022EF4 /* CATRadarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBC06721D35321D00022EF4 /* Build configuration list for PBXNativeTarget "CATRadarViewUITests" */;
+			buildPhases = (
+				5DBC065F1D35321D00022EF4 /* Sources */,
+				5DBC06601D35321D00022EF4 /* Frameworks */,
+				5DBC06611D35321D00022EF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DBC06651D35321D00022EF4 /* PBXTargetDependency */,
+			);
+			name = CATRadarViewUITests;
+			productName = CATRadarViewUITests;
+			productReference = 5DBC06631D35321D00022EF4 /* CATRadarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DBC06371D35321D00022EF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = catch;
+				TargetAttributes = {
+					5DBC063E1D35321D00022EF4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = YC9L8JKS7R;
+					};
+					5DBC06571D35321D00022EF4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = YC9L8JKS7R;
+						TestTargetID = 5DBC063E1D35321D00022EF4;
+					};
+					5DBC06621D35321D00022EF4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = YC9L8JKS7R;
+						TestTargetID = 5DBC063E1D35321D00022EF4;
+					};
+				};
+			};
+			buildConfigurationList = 5DBC063A1D35321D00022EF4 /* Build configuration list for PBXProject "CATRadarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DBC06361D35321D00022EF4;
+			productRefGroup = 5DBC06401D35321D00022EF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DBC063E1D35321D00022EF4 /* CATRadarView */,
+				5DBC06571D35321D00022EF4 /* CATRadarViewTests */,
+				5DBC06621D35321D00022EF4 /* CATRadarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DBC063D1D35321D00022EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBC06521D35321D00022EF4 /* LaunchScreen.storyboard in Resources */,
+				5DBC064F1D35321D00022EF4 /* Assets.xcassets in Resources */,
+				5DBC064D1D35321D00022EF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC06561D35321D00022EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC06611D35321D00022EF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DBC063B1D35321D00022EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBC067B1D35328E00022EF4 /* CATRadarView.m in Sources */,
+				5DBC064A1D35321D00022EF4 /* ViewController.m in Sources */,
+				5DBC06471D35321D00022EF4 /* AppDelegate.m in Sources */,
+				5DBC06441D35321D00022EF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC06541D35321D00022EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBC065D1D35321D00022EF4 /* CATRadarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DBC065F1D35321D00022EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DBC06681D35321D00022EF4 /* CATRadarViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DBC065A1D35321D00022EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBC063E1D35321D00022EF4 /* CATRadarView */;
+			targetProxy = 5DBC06591D35321D00022EF4 /* PBXContainerItemProxy */;
+		};
+		5DBC06651D35321D00022EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DBC063E1D35321D00022EF4 /* CATRadarView */;
+			targetProxy = 5DBC06641D35321D00022EF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DBC064B1D35321D00022EF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBC064C1D35321D00022EF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DBC06501D35321D00022EF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DBC06511D35321D00022EF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DBC066A1D35321D00022EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DBC066B1D35321D00022EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DBC066D1D35321D00022EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATRadarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATRadarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DBC066E1D35321D00022EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATRadarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATRadarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DBC06701D35321D00022EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATRadarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATRadarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATRadarView.app/CATRadarView";
+			};
+			name = Debug;
+		};
+		5DBC06711D35321D00022EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATRadarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATRadarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATRadarView.app/CATRadarView";
+			};
+			name = Release;
+		};
+		5DBC06731D35321D00022EF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATRadarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATRadarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATRadarView;
+			};
+			name = Debug;
+		};
+		5DBC06741D35321D00022EF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATRadarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.catch.CATRadarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATRadarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DBC063A1D35321D00022EF4 /* Build configuration list for PBXProject "CATRadarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBC066A1D35321D00022EF4 /* Debug */,
+				5DBC066B1D35321D00022EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DBC066C1D35321D00022EF4 /* Build configuration list for PBXNativeTarget "CATRadarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBC066D1D35321D00022EF4 /* Debug */,
+				5DBC066E1D35321D00022EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DBC066F1D35321D00022EF4 /* Build configuration list for PBXNativeTarget "CATRadarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBC06701D35321D00022EF4 /* Debug */,
+				5DBC06711D35321D00022EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DBC06721D35321D00022EF4 /* Build configuration list for PBXNativeTarget "CATRadarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DBC06731D35321D00022EF4 /* Debug */,
+				5DBC06741D35321D00022EF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DBC06371D35321D00022EF4 /* Project object */;
+}
