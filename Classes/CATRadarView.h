@@ -9,32 +9,32 @@
 #import <UIKit/UIKit.h>
 
 /**
- *  雷达、波纹、咻一咻图
+ *  Custom Radar View
  */
 @interface CATRadarView : UIView
 
-//波纹填充色
+//fill color
 @property (nonatomic, strong) UIColor *fillColor;
 
-//波纹的数量
+//instance count
 @property (nonatomic, assign) NSInteger instanceCount;
 
-//波纹之间的延迟
+//instance delay
 @property (nonatomic, assign) CFTimeInterval instanceDelay;
 
-//波纹初始透明度（最内圈）
+//opacity
 @property (nonatomic, assign) CGFloat opacityValue;
 
-//动画的时长
+//animation duration
 @property (nonatomic, assign) CFTimeInterval animationDuration;
 
 /**
- *  开启动画
+ *  start animation
  */
 -(void)startAnimation;
 
 /**
- *  关闭动画
+ *  stop animation
  */
 -(void)stopAnimation;
 

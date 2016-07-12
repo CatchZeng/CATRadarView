@@ -117,12 +117,10 @@
 
 - (CAAnimationGroup *)animaGroup {
     if(_animaGroup == nil) {
-        //大小改变动画
         CABasicAnimation *scaleAnima = [CABasicAnimation animationWithKeyPath:@"transform"];
         scaleAnima.fromValue = [NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 0.0, 0.0, 0.0)];
         scaleAnima.toValue = [NSValue valueWithCATransform3D:CATransform3DScale(CATransform3DIdentity, 1.0, 1.0, 0.0)];
         
-        //动画组
         _animaGroup = [CAAnimationGroup animation];
         _animaGroup.animations = @[self.opacityAnima, scaleAnima];
         _animaGroup.duration = 9;

@@ -20,7 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    _radarView.fillColor = [UIColor blueColor];
+    _radarView.instanceCount = 4;
+    _radarView.instanceDelay = 1;
+    _radarView.animationDuration = _radarView.instanceCount* _radarView.instanceDelay;
+    _radarView.opacityValue = 0.6f;
+    
     [_radarView startAnimation];
+}
+
+-(void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    
+    [_radarView stopAnimation];
 }
 
 - (void)didReceiveMemoryWarning {
