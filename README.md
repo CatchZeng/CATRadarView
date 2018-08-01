@@ -1,6 +1,6 @@
 # CATRadarView
 
-iOS radar view
+iOS radar view. Swift implement [Ripples](https://github.com/CatchZeng/Ripples)
 
 # Effect
 
